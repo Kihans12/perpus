@@ -1,0 +1,78 @@
+data Buku
+- atribut
+no
+nomor register
+jenis barang/Nama barang
+judul
+pencipta 
+penerbit
+spesifikasi
+jumlah
+tahun cetak
+tahun pembelian
+asal usul cara
+harga satuan
+harga
+keterangan
+
+- tambahan
+no rak
+no box
+loker buku
+status
+
+
+data peminjaman buku baca
+- atribut
+No
+nis
+Nama
+Kelas
+judul buku
+tanggal pinjam
+
+
+data pengembalian
+- atribut
+tanggal kembali
+
+data peminjaman buku paket
+- atribut
+no
+kelas
+judul buku
+jumlah
+tanggal peminjaman 
+penanggung jawab
+
+data pengembalian
+- atribut
+tanggal pengembalian
+
+
+data pinjaman guru dan karyawan
+- atribut
+nama guru/karyawan
+Bidang studi
+no
+judul buku
+tanggal pinjam
+
+
+data pengembalian guru dan karyawan
+tanggal kembali
+
+
+
+data penyerahan buku paket 
+- atribut
+no
+nis
+nama
+buku paket
+kode buku
+tanggal pinjam
+
+
+data pengembalian
+tanggal kembali
